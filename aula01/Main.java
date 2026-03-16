@@ -5,3 +5,4 @@ public class Main {
     System.out.println("Hello World");
   }
 }
+// Precisa colocar o javac aula01/Main.java e depois o java aula01.Main
