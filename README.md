@@ -1,39 +1,72 @@
 # Desenvolvimento de Software I
 Aulas de Desenvolvimento de Software I com o professor João Siles utilizando Java
 
-Este repositório contém exemplos simples em Java organizados por aula.
+# 📃 Aulas de DS!
+Aulas de Desenvolvimento de Software I utilizando java
 
-Estrutura
-- [README.md](README.md)
-- [aula01/Main.java](aula01/Main.java) — classe [`aula01.Main`](aula01/Main.java)  
-- [aula01/Main.class](aula01/Main.class)
-- [aula02/Variaveis.java](aula02/Variaveis.java) — classe [`aula02.Variaveis`](aula02/Variaveis.java)  
-- [aula02/Variaveis.class](aula02/Variaveis.class)
-- [aula03/Variaveis.java](aula03/Variaveis.java) — classe [`Variaveis`](aula03/Variaveis.java) (sem package)  
-- [aula03/Variaveis.class](aula03/Variaveis.class)
+# Aula 02 - Iniciando Variaveis 📈
 
-Descrição dos arquivos
-- [`aula01.Main`](aula01/Main.java) — Programa "Hello World" dentro do package `aula01`.  
-- [`aula02.Variaveis`](aula02/Variaveis.java) — Demonstra concatenação de strings e conversão entre tipos.  
-- [`Variaveis`](aula03/Variaveis.java) — Exemplo simples de variáveis inteiras e soma.
+## **1 - Criação de arquivo** 📝
+No terminal do Vscode (```ctrl + '```), digite esses comandos para ele identificar seu arquivo e sua pasta:
+```java
+cd [nome da pasta] // navega pelas pastas, identificando-a
+javac .\Main.java // "javac" serve para compilar o codigo
+java .\Main.java // roda o codigo
+```
+## 2 - Regras do Java / resumo da aula⚒️
 
-Como compilar e executar
-- A partir da raiz do repositório (requer JDK instalado):
-  - Para a aula01 (package):
-    - Compilar: javac aula01/Main.java
-    - Executar: java -cp . aula01.Main
-  - Para a aula02 (package):
-    - Compilar: javac aula02/Variaveis.java
-    - Executar: java -cp . aula02.Variaveis
-  - Para a aula03 (sem package):
-    - Compilar: javac aula03/Variaveis.java
-    - Entrar na pasta ou executar a partir da raiz:
-      - cd aula03
-      - javac Variaveis.java
-      - java Variaveis
-    - Ou: javac aula03/Variaveis.java && java -cp . Variaveis
+1 - Nessa aula, eu aprendi como o java diferencia variáveis, visto no exemplo abaixo:
+```java
+1 == 1 (um é igual a um?)
+1 == "1" (um é igual a un?) // aqui ele so analisa o caractere
+1 === "1' (um é exatamente igual a un?) // aqui ele analisa o tipo de variável q ele é 
+```
 
-Observações
-- Arquivos .class já compilados estão incluídos, mas é recomendável recompilar com sua versão do JDK se necessário.  
-- Mantenha o package declarado nos arquivos Java consistente com a estrutura de pastas para evitar erros de execução.  
-- Links para os arquivos e classes estão acima para referência rápida.
+2 - Aprendemos também a juntar strings e vimos o ```.concat```, como visto no [projeto da aula 2](https://github.com/byMegane/dsi-rodrigo-mateus/blob/main/aula02/Variaveis.java).
+
+# Aula 01 - Iniciando Java ✅
+
+##  Configurando a máquina ⚙️
+
+1. **Instalação do JDK**: Instalei o Java da [Adoptium (Temurin)](https://adoptium.net/)
+2. **Configuração no VS Code**:
+   - Instalei o *Extension Pack for Java* da Microsoft
+   - Configurei o path do Vscode para reconhecer o JDK da Adoptium nas configurações  `java.jdt.ls.java.home`
+
+## Regras do Java ⚒️
+
+- **Letras maiúsculas**: O Java diferencia as letras maiúsculas de minúsculas, onde o `Main` (ou o nome do arquivo) precisa ser maiúsculo
+- **Nomes dos Arquivos**: O nome do arquivo deve ser exatamente igual ao nome da classe pública (ex: `Main.java` para a classe `Main`).
+
+## Explicação do Código  👀
+
+Sobre o código `Main.java`:
+
+```java
+package aula01; //define q pertence a pasta aula01
+
+public  class  Main {  //ca
+// racteriza o arquivo, onde declara sua classe e seu nome (main)
+	public  static  void  main(String[] args) {
+		System.out.println("Hello World"); //exibe a frase na tela
+	}
+}
+```
+## Configurando o git ⚙️
+
+1. **Instalando o GitBash**: Clique no [Git](https://git-scm.com/install/windows);
+2. **Comandos do GitBash**: 
+```
+git config --global user.name  'Rodrigo Mateus'
+git config --global user.email rodrigoglasses@gmail.com
+git clone https://github.com/byMegane/dsi-rodrigo-mateus.git
+code . (para abrir o vs code)
+ls
+cd dsi-rodrigo-mateus/
+```
+
+Pascal case - NomeVariavel //
+Camel case - nomeVariavel // (para variaveis)
+Snake case - nome_variavel | NOME_VARIAVEL // (para constantes)
+Kebab case - nome-variavel | NOME_VARIAVEL 
+// variaveis totalmente maiusculas são chamadas de screaming 
