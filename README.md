@@ -22,7 +22,7 @@ java .\Main.java // roda o codigo
 1 === "1' (um é exatamente igual a un?) // aqui ele analisa o tipo de variável q ele é 
 ```
 
-2 - Aprendemos também a juntar strings e vimos o ```.concat```, como visto no [projeto da aula 2](https://github.com/byMegane/dsi-rodrigo-mateus/blob/main/aula02/Variaveis.java).
+2 - Aprendemos também a juntar strings e vimos o ```.concat```, como visto no projeto da aula 2.
 
 # Aula 01 - Iniciando Java ✅
 
@@ -57,12 +57,11 @@ public  class  Main {  //ca
 1. **Instalando o GitBash**: Clique no [Git](https://git-scm.com/install/windows);
 2. **Comandos do GitBash**: 
 ```
-git config --global user.name  'Rodrigo Mateus'
-git config --global user.email rodrigoglasses@gmail.com
+git config --global user.name  'rickelmy'
+git config --global user.email rfeitosamalafaia@gmail.com
 git clone https://github.com/byMegane/dsi-rodrigo-mateus.git
 code . (para abrir o vs code)
 ls
-cd dsi-rodrigo-mateus/
 ```
 
 Pascal case - NomeVariavel //
@@ -70,3 +69,45 @@ Camel case - nomeVariavel // (para variaveis)
 Snake case - nome_variavel | NOME_VARIAVEL // (para constantes)
 Kebab case - nome-variavel | NOME_VARIAVEL 
 // variaveis totalmente maiusculas são chamadas de screaming 
+
+## Operadores novos que vimos
+|| -> ou
+&& -> e
+
+## Tipos de dados em Java
+**float e double**
+Os tipos de dados float e double podem armazenar números fracionários. 
+Exemplo de ponto flutuante
+```java
+	float myNum = 5.75f;
+	System.out.println(myNum);
+```
+Exemplo de double
+```java
+	double myNum = 19.99d;
+	System.out.println(myNum);
+```
+é mais seguro utilizá-lo doublepara a maioria dos cálculos, pois ele têm uma precisão de cerca de 16 dígitos. O float vai ate 6 a 7 dígitos. 
+**Números científicos**
+Um número de ponto flutuante também pode ser um número científico com um "e" para indicar a potência de 10: 
+```java
+	float f1 = 35e3f;
+	double d1 = 12E4d;
+	System.out.println(f1);
+	System.out.println(d1);
+```
+**char**
+O char tipo de dados é usado para armazenar um único caractere. 
+```java
+	char myGrade = 'B';
+	System.out.println(myGrade);
+```
+**String**
+O Stringtipo de dados é usado para armazenar uma sequência de caracteres (texto). 
+```java
+	String greeting = "Hello World";
+	System.out.println(greeting);
+```
+
+```java
+```
