@@ -10,5 +10,6 @@ public class Variaveis {
         String n2 = "2";
         System.out.println(n1 + n2); // Vc pode colocar Interger.parseInt(coloca a variavel), ela converte o String em um int 
     }
+
 }
 // pode colocar tbm (msgP1 + "" + msgP2) ou (msgP1.concat(msgP2))
