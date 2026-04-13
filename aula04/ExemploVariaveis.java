@@ -1,6 +1,6 @@
 package aula04;
 
-public class Variaveis {
+public class ExemploVariaveis {
     public static void main(String[] args) {
     int items = 67;
     int itemsBeans = 37;
