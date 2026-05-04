@@ -38,7 +38,7 @@ java .\Main.java // roda o codigo
 - **Letras maiúsculas**: O Java diferencia as letras maiúsculas de minúsculas, onde o `Main` (ou o nome do arquivo) precisa ser maiúsculo
 - **Nomes dos Arquivos**: O nome do arquivo deve ser exatamente igual ao nome da classe pública (ex: `Main.java` para a classe `Main`).
 
-## Explicação do Código  👀
+## Explicação do Código  
 
 Sobre o código `Main.java`:
 
@@ -57,10 +57,10 @@ public  class  Main {  //ca
 1. **Instalando o GitBash**: Clique no [Git](https://git-scm.com/install/windows);
 2. **Comandos do GitBash**: 
 ```
-git config --global user.name  'rickelmy'
-git config --global user.email rfeitosamalafaia@gmail.com
-git clone https://github.com/byMegane/dsi-rodrigo-mateus.git
-code . (para abrir o vs code)
+git config --global user.name  
+git config --global user.email 
+git clone 
+code . 
 ls
 ```
 
