@@ -21,8 +21,6 @@ public class Logica_AndOrNot {
             System.out.println("A pessoa que mais tem aura da face da terra!!!");
         } else if (nomeString.equals("") || newNumber == 67) {
             System.out.println("Ele(a) "+ nomeString + " não tem muita aura, mas 67!!");
-        } else if (nomeString.equals("") && newNumber == 67) {
-            System.out.println("Para cara, 42 nunca será o número mais aura");
         } else {
             System.out.println("Conseguiu errar o nome e o número, apenas seja moggado");
         }
