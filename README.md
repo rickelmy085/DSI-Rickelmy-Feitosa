@@ -108,6 +108,53 @@ O Stringtipo de dados é usado para armazenar uma sequência de caracteres (text
 	String greeting = "Hello World";
 	System.out.println(greeting);
 ```
+# Aula 03 - Variaveis 
 
+1. Temos varios tipos de variaveis
+	- String - Texto
+	- int - Número inteiro
+	- float - Número decimal de ate 32 bits
+	- double - Número deciaml de ate 64 bits(Mais utilizado)
+	- char - Armazena apenas um caracter, como 'a' ou 'A'
+	- boolean - Verdadeiro(true) ou falso(false)
+
+2. Como declarar?
+	- Escolha um tipo (como intou String)
+	- Dê um nome à variável (como x, age, ou name).
+	- Opcionalmente, atribua um valor a ele usando=
 ```java
+	int age = 16;
+	String name = "Rickelmy";
 ```
+
+# Aula 04 - Exemplo de variaveis
+Nos apenas fizemos um codigo brincado com os tipos de variaveis 
+
+# Aula 05 - Casting
+Significa converter um tipo de dado em outro. Transformamos um **int** em um **double**.
+Mas existem 2 tipos de converte eles
+**Ampliação de tamanho de fonte (automática)** - conversão de um tamanho de fonte menor para um tamanho maior byte-> short-> char-> int- long> - float> ->double
+
+**Redução de tamanho de fonte (manual)** - converter um tipo de letra maior para um tamanho menor
+double-> float-> long-> int-> char-> short->byte
+exemplos: 
+```java
+	int myAge = 9;
+	double myDouble = (myAge);
+```
+E tambem temos assim, nos colocamos o tipo antes dentro dos ():
+```java
+	double myDouble = 6.767;
+	int myInt = (int) myDouble;
+``` 
+# Aula 06 - If e else
+O if(Se) precisa que sua condição seja true ou false para funcionar, e o else(Se não) vem depois caso a condição não seja atendida
+```java
+	if (condição) {
+    // Código executado se a condição for verdadeira
+	} else {
+    // Código executado se a condição for falsa
+	}
+```
+
+# Aula 07 
