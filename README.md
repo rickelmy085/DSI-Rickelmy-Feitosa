@@ -207,9 +207,10 @@ for (inicialização; condição; incremento/decremento) {
   //bloco de código a ser executado repetidamente
 }
 ```
-**Inicialização**: É executada apenas uma vez, antes do código começar. Geralmente serve para criar e definir o valor inicial de uma variável contadora (por exemplo: int i = 0;).
-**Condição**: É a condição de parada. O código só vai rodar ou continuar rodando se essa condição for verdadeira. Se ela se tornar falsa, o loop acaba (por exemplo: i < 10;).
-**incremento/decremento**: É executada toda vez depois que o código rodou. Geralmente serve para atualizar o valor da variável contadora (por exemplo: i++ para somar 1).
+1. Como funciona
+	-**Inicialização**: É executada apenas uma vez, antes do código começar. Geralmente serve para criar e definir o valor inicial de uma variável contadora (por exemplo: int i = 0;).
+	-**Condição**: É a condição de parada. O código só vai rodar ou continuar rodando se essa condição for verdadeira. Se ela se tornar falsa, o loop acaba (por exemplo: i < 10;).
+	-**incremento/decremento**: É executada toda vez depois que o código rodou. Geralmente serve para atualizar o valor da variável contadora (por exemplo: i++ para somar 1).
 
 EX:
 ```java
@@ -232,11 +233,45 @@ for(type nomeDaVariavel : nomeDoArray) {
   //Código para ser executado
 }
 ```
-Esse for é mais simples e legível do que um for normal, já que você não precisa de um contador (como i < array.length).
-	- type: O tipo de dado dos elementos que estão guardados dentro do seu array (por exemplo: int, String, double).
-	- variableName: É uma variável temporária que você cria ali na hora. A cada volta do loop, ela vai "segurar" o valor do elemento atual do array.
-	- arrayName:O nome da lista ou array real que você já criou antes no seu código e que quer ler do início ao fim.
+Esse for é mais simples e legível do que um for normal, já que você não precisa de um contador (como `i < array.length`).
+1. Como funciona.
+   - **type**: O tipo de dado dos elementos que estão guardados dentro do seu array (por exemplo: `int`, `String`, `double`).
+   - **variableName**: É uma variável temporária que você cria ali na hora. A cada volta do loop, ela vai "segurar" o valor do elemento atual do array.
+   - **arrayName**: O nome da lista ou array real que você já criou antes no seu código e que quer ler do início ao fim.
 
 
+**While** loop repete um código enquanto a condição especificada for verdadeiro:
+Sintaxe:
+```java
+while (condição estiver verdadeira) {
+  //bloco de código a ser executado
+}
+```
+**Nota**: Não se esqueça de aumentar a variável utilizada na condição (`i++`), se não ele não vai acabar nunca 
+Você pode usar ele.
 
+Como no **for**, um **While** não pode ser executado se a condição for false.
+EX:
+```java
+int i = 10;
 
+while (i < 5) {
+  System.out.println("Não vai rodar");
+  i++;
+}
+```
+Você pode ver que 10 é claramenta maior que 5, logo a condição é false.
+
+**Do/While**: É uma variante do while. Este loop irá executar o código uma vez, antes de verificar se a condição é verdadeira. Então vai repetir o loop enquanto a condição estiver verdadeira.
+Sintaxe:
+```java
+do {
+  //código a ser executado
+} while (condição for verdadeira);
+```
+1. Como funiona.
+	-**execução primeiro**: O programa entra direto nas chaves { } e roda o código lá dentro, sem testar nada primeiro.
+	-**teste no final**: Só depois de rodar o código é que chega na linha do `while(condition);` e avalia se a condição é true ou false.
+	-**loop**: Se for true, ele volta para o topo e roda o bloco de novo. Se for false nem chega a rodar
+**Nota**: O ponto e vírgula ; depois do while condição é necessária! E use no **do** o incremento `i++`!
+Esse comportamento faz do/while útil quando você quer que algo aconteça pelo menos uma vez, como mostrar uma mensagem ou pedir informações ao usuário.
