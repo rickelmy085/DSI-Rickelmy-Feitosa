@@ -224,3 +224,19 @@ for(int i = 10; i < 5; i++) {
 }
 ```
 Nem vai ser executado porque a condição(O nosso i < 5) já é false, porque nossa inicialização é 10 então ele vai ver que 10 é maior 5 e nem vai executar.
+
+**For com Array** Há também o for que percorre os Arrays, mais chamado de **For-each**
+Sintaxe: 
+```java
+for(type nomeDaVariavel : nomeDoArray) {
+  //Código para ser executado
+}
+```
+Esse for é mais simples e legível do que um for normal, já que você não precisa de um contador (como i < array.length).
+	- type: O tipo de dado dos elementos que estão guardados dentro do seu array (por exemplo: int, String, double).
+	- variableName: É uma variável temporária que você cria ali na hora. A cada volta do loop, ela vai "segurar" o valor do elemento atual do array.
+	- arrayName:O nome da lista ou array real que você já criou antes no seu código e que quer ler do início ao fim.
+
+
+
+
