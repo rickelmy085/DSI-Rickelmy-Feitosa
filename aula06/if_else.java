@@ -8,7 +8,9 @@ public class if_else {
     //E vou usar o exemplo mais classico, ver se o numero é impar ou par
 
         Scanner myNumber = new Scanner(System.in);
+
         System.out.println("Digite seu numeros: ");
+        
         int My_number = myNumber.nextInt();
 
         if (My_number % 2 == 0) {
