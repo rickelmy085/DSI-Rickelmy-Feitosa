@@ -269,9 +269,11 @@ do {
   //código a ser executado
 } while (condição for verdadeira);
 ```
-1. Como funiona.
-	-**execução primeiro**: O programa entra direto nas chaves { } e roda o código lá dentro, sem testar nada primeiro.
-	-**teste no final**: Só depois de rodar o código é que chega na linha do `while(condition);` e avalia se a condição é true ou false.
-	-**loop**: Se for true, ele volta para o topo e roda o bloco de novo. Se for false nem chega a rodar
-**Nota**: O ponto e vírgula ; depois do while condição é necessária! E use no **do** o incremento `i++`!
-Esse comportamento faz do/while útil quando você quer que algo aconteça pelo menos uma vez, como mostrar uma mensagem ou pedir informações ao usuário.
+1. Como funciona
+   - **Execução primeiro**: O programa entra direto nas chaves `{ }` e roda o código lá dentro, sem testar nada primeiro.
+   - **Teste no final**: Só depois de rodar o código é que chega na linha do `while(condition);` e avalia se a condição é `true` ou `false`.
+   - **Loop**: Se for `true`, ele volta para o topo e roda o bloco de novo. Se for `false`, sai do laço.
+
+**Nota**: O ponto e vírgula `;` depois da condição do `while` é obrigatório! E lembre-se de usar o incremento (como `i++`) dentro do bloco do **do**.
+
+Esse comportamento faz o `do/while` útil quando você quer que algo aconteça pelo menos uma vez, como mostrar um menu ou pedir informações ao usuário.
