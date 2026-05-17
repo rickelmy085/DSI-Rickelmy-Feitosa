@@ -158,3 +158,45 @@ O if(Se) precisa que sua condição seja true ou false para funcionar, e o else(
 ```
 
 # Aula 07 
+Aprendemos como Usar o Switch, For e While 
+
+**Switch** Em vez de escrever muitos if e else no nosso código, você pode usar o switch para contorna isso
+Sintaxe:
+```java
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+Vamos usar o ex de uma cafeteria, você só pode escolher entre o Café(Coffee) e o Chá(Tea):
+```java
+public class Main {
+  public static void main(String[] args) {
+    int choice = 1;
+
+    // 1 = Coffee
+    // 2 = Tea
+
+    switch (choice) {
+      case 1:
+        System.out.println("You ordered Coffee");
+        break;
+
+      case 2:
+        System.out.println("You ordered Tea");
+        break;
+
+      default:
+        System.out.println("Invalid choice");
+    }
+  }
+}
+```
+
