@@ -16,7 +16,7 @@ public class Switch {
             System.out.println("Segunda-feita");
             break;
         case 3:
-            System.out.println("Terça-feira");
+            System.out.println("Terça-feira");  
             break;
         case 4:
             System.out.println("Quarta-feita");

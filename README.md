@@ -200,3 +200,27 @@ public class Main {
 }
 ```
 
+**For** Usamos quando você sabe exatamente quantas vezes deseja percorrer um bloco de código, use o for loop em vez de um while loop:
+Sintaxe: 
+```java
+for (inicialização; condição; incremento/decremento) {
+  //bloco de código a ser executado repetidamente
+}
+```
+**Inicialização**: É executada apenas uma vez, antes do código começar. Geralmente serve para criar e definir o valor inicial de uma variável contadora (por exemplo: int i = 0;).
+**Condição**: É a condição de parada. O código só vai rodar ou continuar rodando se essa condição for verdadeira. Se ela se tornar falsa, o loop acaba (por exemplo: i < 10;).
+**incremento/decremento**: É executada toda vez depois que o código rodou. Geralmente serve para atualizar o valor da variável contadora (por exemplo: i++ para somar 1).
+
+EX:
+```java
+for(int i = 1;i < 10; i++) {
+	System.out.println(i);
+}
+```
+Um **for** nunca podera ser executado. Se a condição já for false no início, o código dentro do loop será ignorado.
+```java
+for(int i = 10; i < 5; i++) {
+	System.out.println(i);
+}
+```
+Nem vai ser executado porque a condição(O nosso i < 5) já é false, porque nossa inicialização é 10 então ele vai ver que 10 é maior 5 e nem vai executar.
