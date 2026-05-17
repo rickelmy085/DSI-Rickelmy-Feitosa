@@ -157,7 +157,7 @@ O if(Se) precisa que sua condição seja true ou false para funcionar, e o else(
 	}
 ```
 
-# Aula 07 
+# Aula 07 - Switch, for e while
 Aprendemos como Usar o Switch, For e While 
 
 **Switch** Em vez de escrever muitos if e else no nosso código, você pode usar o switch para contorna isso
