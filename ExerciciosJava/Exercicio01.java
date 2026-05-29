@@ -2,7 +2,7 @@ package ExerciciosJava;
 
 import java.util.Scanner;
 
-public class exercicio_logica1 {
+public class Exercicio01 {
     public static void main(String[] args) {
         //Exercício 1
         Scanner input = new Scanner(System.in); //Já adicionei o Scanner que é parecido com o Golang ainda
