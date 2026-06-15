@@ -44,7 +44,8 @@ public class Exercicio03 {
 
         if (a == b && b == c) {
             System.out.println("Formam um triângulo equilátero");
-        } else if (a == b || b == c || a == c) {
+        } 
+        if (a == b || b == c || a == c) {
             System.out.println("Formam um triângulo isósceles");
         }
     }
