@@ -18,8 +18,8 @@ java .\Main.java // roda o codigo
 1 - Nessa aula, eu aprendi como o java diferencia variáveis, visto no exemplo abaixo:
 ```java
 1 == 1 (um é igual a um?)
-1 == "1" (um é igual a un?) // aqui ele so analisa o caractere
-1 === "1' (um é exatamente igual a un?) // aqui ele analisa o tipo de variável q ele é 
+1 == "1" (um é igual a um?) // aqui ele so analisa o caractere
+1 === "1" (um é exatamente igual a um?) // aqui ele analisa o tipo de variável q ele é 
 ```
 
 2 - Aprendemos também a juntar strings e vimos o ```.concat```, como visto no projeto da aula 2.
