@@ -25,4 +25,9 @@ public class Conexao {
 
         return con;
     }
+
+    public static void main(String[] args) {
+        //So para testa se tá indo mesmo, pq tava compilando ele sem uma main
+        System.out.println(abirConexao()); 
+    }
 }
